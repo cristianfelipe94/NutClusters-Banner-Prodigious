@@ -1,0 +1,54 @@
+.ui-content-size { 
+    margin: 10vh auto;
+    width: 300px;
+    height: 250px;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid #000;
+    background: #eaeadc;
+}
+
+.ui-background-relative {
+    position: relative;
+    opacity: 0;
+    filter: blur(0.7px);
+    transform: scale(0px);
+}
+
+.ui-position {
+    position: absolute;
+    opacity: 0;
+}
+
+.ui-product-position {
+    top: -20px;
+}
+
+.ui-firstline-position {
+    left: 200px;
+    top: 1px;
+}
+
+.ui-secondline-position {
+    left: 200px;
+    top: 36px;
+}
+
+.ui-thirdline-position {
+    left: 200px;
+    top: 73px;
+}
+
+.ui-finalline-position {
+    left: 300px;
+    bottom: 9px;
+}
+
+.ui-action-normal {
+    transform: scale(0);
+    opacity: 0;
+    top: 150px;
+    left: -200px;
+    width: 300px;
+    z-index: 10;
+}
