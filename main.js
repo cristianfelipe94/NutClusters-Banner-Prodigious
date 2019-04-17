@@ -17,7 +17,7 @@ let _loadedImages = 0;
 const _imageObjs = [
     image1 = {
         bodyVal:'img',
-		src:'assets/background.jpg',
+		src:'background.jpg',
 		idVal:'js-background-img',
         defaulClass:'ui-position',
         personalClass:'ui-background-relative',
@@ -25,7 +25,7 @@ const _imageObjs = [
     },
     image2 = {
         bodyVal:'img',
-		src:'assets/product.png',
+		src:'product.png',
 		idVal:'js-product-position',
         defaulClass:'ui-position',
         personalClass:'ui-product-position',
@@ -33,7 +33,7 @@ const _imageObjs = [
     },
     image3 = {
         bodyVal:'img',
-		src:'assets/first-line.png',
+		src:'first-line.png',
 		idVal:'js-firstline-move',
         defaulClass:'ui-position',
         personalClass:'ui-firstline-position',
@@ -41,7 +41,7 @@ const _imageObjs = [
     },
     image4 = {
         bodyVal:'img',
-		src:'assets/second-line.png',
+		src:'second-line.png',
 		idVal:'js-secondline-move',
         defaulClass:'ui-position',
         personalClass:'ui-secondline-position',
@@ -49,7 +49,7 @@ const _imageObjs = [
     },
     image5 = {
         bodyVal:'img',
-		src:'assets/third-line.png',
+		src:'third-line.png',
 		idVal:'js-thirdline-move',
         defaulClass:'ui-position',
         personalClass:'ui-thirdline-position',
@@ -57,7 +57,7 @@ const _imageObjs = [
     },
     image6 = {
         bodyVal:'img',
-		src:'assets/final-line.png',
+		src:'final-line.png',
 		idVal:'js-finalline-move',
         defaulClass:'ui-position',
         personalClass:'ui-finalline-position',
@@ -65,7 +65,7 @@ const _imageObjs = [
     },
     image7 = {
         bodyVal:'img',
-		src:'assets/action-hover.png',
+		src:'action-hover.png',
 		idVal:'js-actionHover-scale',
         defaulClass:'ui-position',
         personalClass:'ui-action-normal',
@@ -73,7 +73,7 @@ const _imageObjs = [
     },
     image8 = {
         bodyVal:'img',
-		src:'assets/action-normal.png',
+		src:'action-normal.png',
 		idVal:'js-actionNormal-scale',
         defaulClass:'ui-position',
         personalClass:'ui-action-normal',
