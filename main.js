@@ -124,4 +124,8 @@ function initAnimations(){
 function actionsButton(){
     _btnExit.addEventListener('mouseover', () => { TweenMax.to('#js-actionNormal-scale',.10,{ opacity:0 })});
     _btnExit.addEventListener('mouseout', () => { TweenMax.to('#js-actionNormal-scale',.10,{ opacity:1 })});
+    const looperBanner = function() {
+        location.reload();
+    }
+    setTimeout(looperBanner, 5000);
 };
